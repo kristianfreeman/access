@@ -1,7 +1,7 @@
 {
   "name": "@signalnerve/access",
   "version": "0.0.1",
-  "description": "Tools and middleware for working with Cloudflare Access inside of a Cloudflare Workers application",
+  "description": "(very alpha!) tooling for authenticating using cloudflare access, inside of a worker",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
