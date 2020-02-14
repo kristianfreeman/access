@@ -1,0 +1,16 @@
+{
+  "name": "@signalnerve/access",
+  "version": "0.0.1",
+  "description": "Tools and middleware for working with Cloudflare Access inside of a Cloudflare Workers application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristian Freeman <kristian@bytesized.xyz>",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "node-jose": "^1.1.3"
+  },
+  "gitHead": "c351a53c0a04b42afd4fc8769d3404f4f0d40d1d"
+}
