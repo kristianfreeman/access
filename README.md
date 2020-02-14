@@ -9,7 +9,23 @@ npm install @signalnerve/access
 ```
 
 ```js
+// put this in config.js and gitignore it, or post-february 2020, use
+// workers secrets to set these as AUD and CERTIFICATE_URL constants
+// in your script
+const config = {
+  AUD: "1234abcdef",
+  CERTIFICATE_URL: "https://yourdomain.com/cdn-cgi/access/certs",
+}
+
 // in your workers script, usually index.js
+
+const access = new Access({
+  debug: true,
+  verification: {
+    aud: config.AUD,
+    certificateUrl: config.CERTIFICATE_URL,
+  },
+})
 
 addEventListener('fetch', handleRequest)
 
