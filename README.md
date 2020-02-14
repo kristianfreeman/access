@@ -4,6 +4,10 @@
 
 usage:
 
+```sh
+npm install @signalnerve/access
+```
+
 ```js
 // in your workers script, usually index.js
 
